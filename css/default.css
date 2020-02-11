@@ -1,7 +1,11 @@
 .navigation-container{
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
     border: 1px solid black;
+    flex-grow: 1em;
+    flex-direction: column;
+    justify-content:;
 }
 
 .search-results-container{
