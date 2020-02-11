@@ -1,0 +1,12 @@
+.navigation-container{
+
+    display: flex;
+    border: 1px solid black;
+}
+
+.search-results-container{
+    border: .2em solid black;
+    flex-direction: row;
+    display: flex;
+    
+}
