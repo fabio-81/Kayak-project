@@ -14,10 +14,19 @@
     border: 1px solid red;
     position: relative;
     min-height: 300px;
-
+}
 .search-results-container{
     border: .2em solid black;
     flex-direction: row;
     display: flex;
     
+}
+.search-box{
+    background-color:white;
+    border: 1px solid black;
+    width: 50%;
+    position: absolute;
+    text-align:bottom;
+    align-items: center;
+ 
 }
