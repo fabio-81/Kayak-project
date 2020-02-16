@@ -7,6 +7,13 @@
     flex-direction: column;
     justify-content:;
 }
+.navigation-searchbox{
+    background-image: url(/Kayak-project/img/globe.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    position: relative;
+    min-height: 300px;
 
 .search-results-container{
     border: .2em solid black;
