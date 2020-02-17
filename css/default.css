@@ -10,7 +10,7 @@
     font-size: 1.25em;
 }
 .navigation-searchbox{
-    background-image: url(/img/globe.jpeg);
+    background-image: url(/img/globe3.png);
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -25,6 +25,9 @@
     flex-direction:row;
     flex-wrap:nowrap;
 
+}
+.form-items{
+    text-align: center;
 }
 
 
