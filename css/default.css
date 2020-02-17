@@ -2,8 +2,12 @@
     display: flex;
     border: 1px solid black;
     flex-grow: 1em;
-    
+    position: relative;
     justify-content:space-evenly;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 .navigation-searchbox{
     background-image: url(/img/globe.jpeg);
@@ -12,7 +16,7 @@
     border: 1px solid red;
     position: relative;
     min-height: 300px;
-    flex: left;
+
     
 }
 .search-results-container{
@@ -20,39 +24,10 @@
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
-    /*grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-row-gap:-11px;
-    border: 1px solid blue;
-    justify-content:flex-start;*/
-    
-}  
-/*.item-a{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start:1;
-    grid-row-end: 5;
-    align-self: stretch;
+
 }
 
-.item-b{
-    grid-column-start:3;
-    grid-column-end:4;
-    grid-row-start:1;
-    grid-row-end: 5;
-}
-.item-c{
-    grid-column-start: 3;
-    grid-column-end:5;
-    grid-row-start:2;
-    grid-row-end: 3;
-}
-.item-d{
-    grid-column-start: 3;
-    grid-column-end:4;
-    grid-row-start:3;
-    grid-row-end:4;
-}*/
+
 .search-result-image{
     
     border: 1px solid red;
