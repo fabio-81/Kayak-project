@@ -12,7 +12,7 @@
     
 }
 .navigation-searchbox{
-    background-image: url(img/globe3.png);
+    background-image: url(../img/globe3.png);
     background-position: center;
     background-size: cover;
     border: 1px solid red;
@@ -33,11 +33,6 @@ padding: 1em;
 .search-results-image{
 padding: 1em;
 
-
-}
-.form-items{
-    text-align: center;
-}
 
 .search-result-image{
     
