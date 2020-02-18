@@ -8,44 +8,39 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 1.25em;
+    background-color: #FDC1B9;
+    
 }
 .navigation-searchbox{
     background-image: url(/img/globe3.png);
     background-position: center;
     background-size: cover;
     border: 1px solid red;
-    position: relative;
-    min-height: 300px;
-
-    
+    text-align: center;
+    min-height: 300px;margin: 0;
+ 
 }
 .search-results-container{
     border: .2em solid black;
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
+}
+.search-results-content{
+
+padding: 1em;
+}
+.search-results-image{
+padding: 1em;
+
 
 }
 .form-items{
     text-align: center;
 }
 
-
 .search-result-image{
     
     border: 1px solid red;
     
-}
-}
-.search-box{
-    background-color:white;
-    border: 1px solid black;
-    width: 25%;
-    position: absolute;
-   
-   
- 
-}
-.form-container{
-    text-align: left;
 }
