@@ -34,7 +34,7 @@ padding: 1em;
 .search-results-image{
     
     border: 1px solid red;
-    max-width: 20em;
+    max-width: 16em;
     padding: 0.5em;
     
 }
@@ -45,4 +45,7 @@ padding: 1em;
 }
 .form-container{
     text-align: left;
+}
+.footer-container{
+    background-color: #44B37C;
 }
