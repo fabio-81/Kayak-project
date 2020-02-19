@@ -30,22 +30,17 @@
 
 padding: 1em;
 }
-.search-results-image{
-padding: 1em;
 
-}
-.search-result-image{
+.search-results-image{
     
     border: 1px solid red;
-    max-width: 10em;
+    max-width: 20em;
+    padding: 0.5em;
     
 }
 
 .search-box{
     background-color:white;
-    border: 1px solid black;
-    width: 25%;
-    position: absolute;
 
 }
 .form-container{
