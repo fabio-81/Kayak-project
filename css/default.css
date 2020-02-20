@@ -27,10 +27,13 @@
     flex-wrap:nowrap;
 }
 .search-results-content{
-
+display: flex;
+flex-direction: column;
 padding: 1em;
 }
-
+.search-item-paragraph{
+    flex-grow: 1;
+}
 .search-results-image{
     
     border: 1px solid red;
@@ -61,9 +64,5 @@ background-color: white;
 .signup-item{
 background-color: black;
 }
-a{
-    color:red
-}
-.item-c{
-    flex-grow: 1;
-}
+
+
