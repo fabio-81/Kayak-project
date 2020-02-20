@@ -3,12 +3,13 @@
     --col-on-bg: #222;
     --col-accent-a: #5f6caf;
     --col-on-accent-a: #111;
-    /* [...etc] */
-    --font-a: arial, helvetica, sans-serif;
-    /* [...etc] */
+    /* [heading font] */
+    --font-a:Georgia, 'Times New Roman', Times, serif;
+    /* [paragraph font] */
+    --font-b:Arial, Helvetica, sans-serif;
     --spacing: 1em;
  }
- 
+
 .navigation-menu-links-container{
     display: flex;
     border: 1px solid black;
@@ -16,20 +17,19 @@
     position: relative;
     justify-content:space-evenly;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--font-a);
     font-weight: bold;
     font-size: 1.25em;
     background-color: #FDC1B9;
     
 }
 .navigation-searchbox{
-    background-image: url(../img/globe3.png);
+    background-image: url(../img/globe.jpeg);
     background-position: center;
     background-size: cover;
     border: 1px solid red;
     text-align: center;
     min-height: 300px;
- 
 }
 .search-results-container{
     border: .2em solid black;
@@ -44,6 +44,7 @@ padding: 1em;
 }
 .search-item-paragraph{
     flex-grow: 1;
+    font-family: var(--font-b);
 }
 .search-results-image{
     
@@ -57,12 +58,7 @@ padding: 1em;
     background-color:white;
 
 }
-.form-container{
-    text-align: left;
-}
-.footer-container{
-    background-color: #44B37C;
-}
+
 .form-items{
     border-radius: 1em;
 }
@@ -81,6 +77,15 @@ background-color: black;
     color: white;
     max-width: 6em;
     padding: 0.5em;
+    font-family: roboto;
+}
+.seach-results, .search-box, .search-item-title{
+
+font-family: var(--font-a);
 }
 
-
+@media screen and (min-width: 20em) {
+	
+	.navigation-menu-links-container {
+		flex-direction: row;
+	}
