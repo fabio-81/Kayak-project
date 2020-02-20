@@ -90,6 +90,10 @@ font-family: var(--font-a);
 	.navigation-menu-links-container {
 		flex-direction: row;
     }
+    .search-results-content{
+        flex-direction:column;
+    }
+}
     /*tablet responsive*/
     @media screen and (min-width:48em){
         .navigation-menu-links-container{
