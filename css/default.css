@@ -19,8 +19,9 @@
     align-items: center;
     font-family: var(--font-a);
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1em;
     background-color: #FDC1B9;
+    flex-direction: column;
     
 }
 .navigation-searchbox{
@@ -83,9 +84,16 @@ background-color: black;
 
 font-family: var(--font-a);
 }
-
-@media screen and (min-width: 20em) {
+/*mobile responive*/
+@media screen and (min-width: 36em) {
 	
 	.navigation-menu-links-container {
 		flex-direction: row;
-	}
+    }
+    /*tablet responsive*/
+    @media screen and (min-width:48em){
+        .navigation-menu-links-container{
+            font-size: 1.25em;
+        }
+
+    }
