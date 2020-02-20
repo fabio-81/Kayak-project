@@ -35,7 +35,7 @@
 .search-results-container{
     border: .2em solid black;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     flex-wrap:nowrap;
 }
 .search-results-content{
@@ -50,7 +50,6 @@ padding: 1em;
 .search-results-image{
     
     border: 1px solid red;
-    max-width: 16em;
     padding: 0.5em;
     
 }
@@ -90,8 +89,11 @@ font-family: var(--font-a);
 	.navigation-menu-links-container {
 		flex-direction: row;
     }
-    .search-results-content{
-        flex-direction:column;
+    .search-results-container{
+        flex-direction:row;
+    }
+    .search-results-image{
+        max-width: 16em;
     }
 }
     /*tablet responsive*/
