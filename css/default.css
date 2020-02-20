@@ -49,3 +49,21 @@ padding: 1em;
 .footer-container{
     background-color: #44B37C;
 }
+.form-items{
+    border-radius: 1em;
+}
+.logo{
+    background-color: white;
+}
+.login-item{
+background-color: white;
+}
+.signup-item{
+background-color: black;
+}
+a{
+    color:red
+}
+.item-c{
+    flex-grow: 1;
+}
