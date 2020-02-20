@@ -1,3 +1,14 @@
+:root {
+    --col-bg: #fff;
+    --col-on-bg: #222;
+    --col-accent-a: #5f6caf;
+    --col-on-accent-a: #111;
+    /* [...etc] */
+    --font-a: arial, helvetica, sans-serif;
+    /* [...etc] */
+    --spacing: 1em;
+ }
+ 
 .navigation-menu-links-container{
     display: flex;
     border: 1px solid black;
@@ -63,6 +74,13 @@ background-color: white;
 }
 .signup-item{
 background-color: black;
+}
+
+.search-item-link{
+    background-color: #DF00A9;
+    color: white;
+    max-width: 6em;
+    padding: 0.5em;
 }
 
 
