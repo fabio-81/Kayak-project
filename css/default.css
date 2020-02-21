@@ -1,26 +1,26 @@
 :root {
-    --col-bg: #fff;
-    --col-on-bg: #222;
+    --col-bg-navigation: #FDC1B9;
+    /*footer container color*/
+    --col-bg-footer:#44B37C;
+
     --col-accent-a: #5f6caf;
-    --col-on-accent-a: #111;
+    --col-on-link-background-a: #DF00A9;
     /* [heading font] */
     --font-a:Georgia, 'Times New Roman', Times, serif;
     /* [paragraph font] */
     --font-b:Arial, Helvetica, sans-serif;
-    --spacing: 1em;
  }
 
 .navigation-menu-links-container{
     display: flex;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     flex-grow: 1em;
-    position: relative;
     justify-content:space-evenly;
     align-items: center;
     font-family: var(--font-a);
     font-weight: bold;
     font-size: 1em;
-    background-color: #FDC1B9;
+    background-color: var(--col-bg-navigation);
     flex-direction: column;
     
 }
@@ -28,36 +28,39 @@
     background-image: url(../img/globe.jpeg);
     background-position: center;
     background-size: cover;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     text-align: center;
     min-height: 300px;
 }
+
 .search-results-container{
-    border: .2em solid black;
+    /*border: .2em solid black;*/
     display:flex;
     flex-direction:column;
     flex-wrap:nowrap;
 }
 .search-results-content{
-display: flex;
-flex-direction: column;
-padding: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
 }
+
 .search-item-paragraph{
     flex-grow: 1;
     font-family: var(--font-b);
 }
+
 .search-results-image{
-    
-    border: 1px solid red;
     padding: 0.5em;
-    
+  
 }
 .search-box{
     background-color:white;
-font-size: 1.2em;
+    font-size: 1.2em;
 }
-
+.results-text{
+    color: red;
+}
 
 .logo, .nav-item{
     background-color: white;
@@ -77,7 +80,7 @@ font-size: 1.2em;
 }
 
 .search-item-link{
-    background-color: #DF00A9;
+    background-color:var(--col-on-link-background-a);
     color: white;
     max-width: 6em;
     padding: 0.5em;
@@ -86,7 +89,7 @@ font-size: 1.2em;
 }
 .seach-results, .search-box, .search-item-title{
 
-font-family: var(--font-a);
+    font-family: var(--font-a);
 }
 
 /*
@@ -105,14 +108,12 @@ font-family: var(--font-a);
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr 1fr;
     align-items: center;
-    background-color: #44B37C;
+    background-color: var(--col-bg-footer);
 }
 .social-logo{
     max-width: 5em;
 }
-.social-media-container{
-    border: 1px solid black;
-}
+
 /*mobile responive*/
 @media screen and (min-width: 36em) {
 	
