@@ -86,19 +86,23 @@ font-family: var(--font-a);
 
 .footer-container{
     display: grid;
+    background-color: #44B37C;
 }
 .footer-menu-links-container{
     display: flex;
     border: 1px solid black;
     flex-grow: 1em;
+    background-color: #44B37C;
     position: relative;
     justify-content:space-evenly;
     align-items: center;
     font-family: var(--font-a);
     font-weight: bold;
     font-size: 1em;
-    background-color: #FDC1B9;
     flex-direction: column;
+}
+.social-logo{
+    max-width: 50%;
 }
 /*mobile responive*/
 @media screen and (min-width: 36em) {
@@ -116,8 +120,8 @@ font-family: var(--font-a);
     .footer-menu-links-container{
         flex-direction: row;
     }
-
 }
+
     /*tablet responsive*/
     @media screen and (min-width:48em){
         .navigation-menu-links-container{
