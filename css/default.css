@@ -86,6 +86,9 @@
 
     font-family: var(--font-a);
 }
+.footer-nav-item{
+    padding: 0.5em;
+}
 
 /*
 .footer-menu-links-container{
