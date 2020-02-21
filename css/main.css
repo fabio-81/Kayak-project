@@ -12,12 +12,19 @@
  }
 
 
-
+.search-box-heading{
+    background-color: white;
+}
 .search-results-container{
     /*border: .2em solid black;*/
     display:flex;
     flex-direction:column;
     flex-wrap:nowrap;
+}
+
+.search-results-image{
+    padding: 0.5em;
+  
 }
 .search-results-content{
     display: flex;
@@ -30,12 +37,7 @@
     font-family: var(--font-b);
 }
 
-.search-results-image{
-    padding: 0.5em;
-  
-}
-
-.seach-results, .search-box, .search-item-title{
+.seach-results, .search-box-heading, .search-item-title{
 
     font-family: var(--font-a);
 }

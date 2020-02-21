@@ -26,6 +26,22 @@
     padding: 0.5em;
     
 }
+.logo{
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.nav-item{
+    padding: 0.5em;
+}
+
+.login-item, .signup-item{
+    background-color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
 .navigation-searchbox{
     background-image: url(../img/globe.jpeg);
     background-position: center;
@@ -33,6 +49,15 @@
     /*border: 1px solid red;*/
     text-align: center;
     min-height: 300px;
+}
+.search-box-heading{
+    font-size: 1.2em;
+    font-family: var(--font-a);
+    background-color: white;
+}
+
+.results-text{
+    color:var(--col-on-results);
 }
 
 .search-results-container{
@@ -42,6 +67,11 @@
     flex-wrap:nowrap;
     border: 1px solid var(--col-border-a);
 }
+.search-results-image{
+    padding: 0.5em;
+  
+}
+
 .search-results-content{
     display: flex;
     flex-direction: column;
@@ -53,33 +83,6 @@
     font-family: var(--font-b);
 }
 
-.search-results-image{
-    padding: 0.5em;
-  
-}
-.search-box{
-    font-size: 1.2em;
-    font-family: var(--font-a);
-    background-color: white;
-}
-.results-text{
-    color:var(--col-on-results);
-}
-
-.logo{
-    background-color: white;
-    border-radius: 1em;
-    padding: 0.5em;
-}
-.login-item, .signup-item{
-    background-color: white;
-    border-radius: 1em;
-    padding: 0.5em;
-}
-.nav-item{
-    padding: 0.5em;
-}
-
 .search-item-link{
     background-color:var(--col-on-link-background-a);
     color: white;
@@ -88,13 +91,11 @@
     font-family: roboto;
     border-radius: 0 1em 0 0;
 }
+
 .search-results,.search-item-title{
 
     font-family: var(--font-a);
     text-decoration: underline;
-}
-.footer-nav-item{
-    padding: 0.5em;
 }
 
 .footer-menu-links-container{
@@ -103,6 +104,11 @@
     align-items: center;
     background-color: var(--col-bg-footer);
 }
+
+.footer-nav-item{
+    padding: 0.5em;
+}
+
 .social-logo{
     max-width: 5em;
 }
@@ -117,31 +123,38 @@
         flex-direction:row;
 
     }
-    .search-box{
+    .search-box-heading{
         font-size: 1.5em;
     }
-   /* .footer-menu-links-container{
-        flex-direction: row;
-    }*/
 }
 
     /*tablet responsive*/
     @media screen and (min-width:48em){
+
         .navigation-menu-links-container{
+
             font-size: 1.25em;
         }
         .search-results-image{
+
         max-width: 25em;
+
         }
-        .search-box{
+        .search-box-heading{
+
             font-size: 2em;
         }
         .footer-menu-links-container{
+
             font-size: 1.25;
         }
     }
+    /*PC*/
     @media screen and (min-width:70em){
+
         .search-results-image{
+
         max-width: 16em;
+
         }
     }
