@@ -1,0 +1,118 @@
+:root {
+    --col-bg-navigation: #FDC1B9;
+    /*footer container color*/
+    --col-bg-footer:#44B37C;
+
+    --col-accent-a: #5f6caf;
+    --col-on-link-background-a: #DF00A9;
+    /* [heading font] */
+    --font-a:Georgia, 'Times New Roman', Times, serif;
+    /* [paragraph font] */
+    --font-b:Arial, Helvetica, sans-serif;
+ }
+
+
+
+.search-results-container{
+    /*border: .2em solid black;*/
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+.search-results-content{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.search-item-paragraph{
+    flex-grow: 1;
+    font-family: var(--font-b);
+}
+
+.search-results-image{
+    padding: 0.5em;
+  
+}
+.search-box{
+    background-color:white;
+    font-size: 1.2em;
+}
+.results-text{
+    color: red;
+}
+
+
+.search-item-link{
+    background-color:var(--col-on-link-background-a);
+    color: white;
+    max-width: 6em;
+    padding: 0.5em;
+    font-family: roboto;
+    border-radius: 0 1em 0 0;
+}
+.seach-results, .search-box, .search-item-title{
+
+    font-family: var(--font-a);
+}
+
+/*
+.footer-menu-links-container{
+    display: flex;
+    border: 1px solid black;
+    background-color: #44B37C;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: var(--font-a);
+    font-weight: bold;
+    font-size: 1em;
+    flex-direction: column;
+}*/
+.footer-menu-links-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: var(--col-bg-footer);
+}
+.social-logo{
+    max-width: 5em;
+}
+
+/*mobile responive*/
+@media screen and (min-width: 36em) {
+	
+	.navigation-menu-links-container {
+		flex-direction: row;
+    }
+    .search-results-container{
+        flex-direction:row;
+
+    }
+    .search-box{
+        font-size: 1.5em;
+    }
+   /* .footer-menu-links-container{
+        flex-direction: row;
+    }*/
+}
+
+    /*tablet responsive*/
+    @media screen and (min-width:48em){
+        .navigation-menu-links-container{
+            font-size: 1.25em;
+        }
+        .search-results-image{
+        max-width: 25em;
+        }
+        .search-box{
+            font-size: 2em;
+        }
+     /*   .footer-menu-links-container{
+            font-size: 1.25;
+        }*/
+    }
+    @media screen and (min-width:70em){
+        .search-results-image{
+        max-width: 16em;
+        }
+    }
