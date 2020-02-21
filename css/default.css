@@ -59,6 +59,7 @@
 }
 .search-box{
     font-size: 1.2em;
+    font-family: var(--font-a);
 }
 .results-text{
     color:var(--col-on-results);
@@ -86,9 +87,10 @@
     font-family: roboto;
     border-radius: 0 1em 0 0;
 }
-.seach-results, .search-box, .search-item-title{
+.search-results,.search-item-title{
 
     font-family: var(--font-a);
+    text-decoration: underline;
 }
 .footer-nav-item{
     padding: 0.5em;
