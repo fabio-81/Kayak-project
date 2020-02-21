@@ -23,6 +23,7 @@
     font-size: 1em;
     background-color: var(--col-bg-navigation);
     flex-direction: column;
+    padding: 0.5em;
     
 }
 .navigation-searchbox{
@@ -141,9 +142,9 @@
         .search-box{
             font-size: 2em;
         }
-     /*   .footer-menu-links-container{
+        .footer-menu-links-container{
             font-size: 1.25;
-        }*/
+        }
     }
     @media screen and (min-width:70em){
         .search-results-image{
