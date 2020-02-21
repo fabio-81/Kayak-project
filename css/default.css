@@ -6,12 +6,13 @@
     --col-bg-searchbox-heading:white;
     --col-border-a: #222222;
     --col-on-results:red;
-    --col-on-link-background-a: #DF00A9;
+    --col-bg-link-background-a: #DF00A9;
     /* [heading font] */
     --font-a:Georgia, 'Times New Roman', Times, serif;
     /* [paragraph font] */
     --font-b:Arial, Helvetica, sans-serif;
-    --font-search-item-link:roboto;
+    
+
  }
 /* navigation menu*/
 .navigation-menu-links-container{
@@ -21,13 +22,12 @@
     align-items: center;
     font-family: var(--font-a);
     font-weight: bold;
-    font-size: 1em;
     background-color: var(--col-bg-navigation-container);
     flex-direction: column;
     padding: 0.5em;
     
 }
-/*navigation searchbox container*/
+
 .navigation-searchbox{
     background-image: url(../img/globe.jpeg);
     background-position: center;
@@ -35,7 +35,7 @@
     text-align: center;
     min-height: 28em;
 }
-/*search results containers*/
+
 .search-results-container{
     display:flex;
     flex-direction:column;
@@ -73,11 +73,11 @@
 }
 
 .search-item-link{
-    background-color:var(--col-on-link-background-a);
+    background-color:var(--col-bg-link-background-a);
     color: white;
     max-width: 6em;
     padding: 0.5em;
-    font-family: roboto;
+    font-weight: bold;
     border-radius: 0 1em 0 0;
 }
 
@@ -109,6 +109,11 @@
     color:var(--col-on-results);
 }
 
+.nav-item, .login-item, .signup-item{
+    font-size: 1em;
+    
+    }
+
 /*mobile responive*/
 @media screen and (min-width: 36em) {
 	
@@ -127,7 +132,7 @@
     /*tablet responsive*/
     @media screen and (min-width:48em){
 
-        .navigation-menu-links-container{
+        .nav-item, .login-item, .signup-item{
 
             font-size: 1.25em;
         }
