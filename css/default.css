@@ -3,7 +3,8 @@
     /*footer container color*/
     --col-bg-footer:#44B37C;
 
-    --col-accent-a: #5f6caf;
+    --col-border-a: #222222;
+    --col-on-results:red;
     --col-on-link-background-a: #DF00A9;
     /* [heading font] */
     --font-a:Georgia, 'Times New Roman', Times, serif;
@@ -38,6 +39,7 @@
     display:flex;
     flex-direction:column;
     flex-wrap:nowrap;
+    border: 1px solid var(--col-border-a);
 }
 .search-results-content{
     display: flex;
@@ -55,26 +57,19 @@
   
 }
 .search-box{
-    background-color:white;
     font-size: 1.2em;
 }
 .results-text{
-    color: red;
+    color:var(--col-on-results);
 }
 
-.logo, .nav-item{
+.logo{
     background-color: white;
     border-radius: 1em;
     padding: 0.5em;
 }
-.login-item{
+.login-item, .signup-item{
     background-color: white;
-    border-radius: 1em;
-    padding: 0.5em;
-}
-.signup-item{
-    background-color: black;
-    color: white;
     border-radius: 1em;
     padding: 0.5em;
 }
