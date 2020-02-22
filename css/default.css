@@ -1,19 +1,20 @@
 :root {
     --col-bg-navigation-container: #FDC1B9;
     --col-bg-nav-links:white;
-    /*footer container color*/
-    --col-bg-footer:#44B37C;
     --col-bg-searchbox-heading:white;
     --col-border-a: #222222;
-    --col-on-results:red;
+    --col-on-results:red;   
+    /*footer container color*/
+    --col-bg-footer:#44B37C;
+    /*search results containers links*/
+    --col-on-search-item-link:white;
     --col-bg-link-background-a: #DF00A9;
     /* [heading font] */
     --font-a:Georgia, 'Times New Roman', Times, serif;
     /* [paragraph font] */
     --font-b:Arial, Helvetica, sans-serif;
-    
-
  }
+
 /* navigation menu*/
 .navigation-menu-links-container{
     display: flex;
@@ -24,8 +25,7 @@
     font-weight: bold;
     background-color: var(--col-bg-navigation-container);
     flex-direction: column;
-    padding: 0.5em;
-    
+    padding: 0.5em; 
 }
 
 .navigation-searchbox{
@@ -58,7 +58,6 @@
 
 .search-results-image{
     padding: 0.5em;
-  
 }
 
 .search-results-content{
@@ -74,7 +73,7 @@
 
 .search-item-link{
     background-color:var(--col-bg-link-background-a);
-    color: white;
+    color:var(--col-on-search-item-link);
     max-width: 6em;
     padding: 0.5em;
     font-weight: bold;
@@ -111,7 +110,6 @@
 
 .nav-item, .login-item, .signup-item{
     font-size: 1em;
-    
     }
 
 /*mobile responive*/
