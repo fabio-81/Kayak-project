@@ -110,6 +110,7 @@
 
 .nav-item, .login-item, .signup-item{
     font-size: 1em;
+    margin: 0.5em;
     }
 
 /*mobile responive*/
