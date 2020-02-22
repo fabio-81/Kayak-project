@@ -1,10 +1,14 @@
 :root {
-    --col-bg-navigation: #FDC1B9;
+    --col-bg-navigation-container: #FDC1B9;
+    --col-bg-nav-links:white;
+    --col-bg-searchbox-heading:white;
+    --col-border-a: #222222;
+    --col-on-results:red;   
     /*footer container color*/
     --col-bg-footer:#44B37C;
-
-    --col-accent-a: #5f6caf;
-    --col-on-link-background-a: #DF00A9;
+    /*search results containers links*/
+    --col-on-search-item-link:white;
+    --col-bg-link-background-a: #DF00A9;
     /* [heading font] */
     --font-a:Georgia, 'Times New Roman', Times, serif;
     /* [paragraph font] */
@@ -12,7 +16,6 @@
  }
 
  .search-results-container{
-    /*border: .2em solid black;*/
     display:flex;
     flex-direction:column;
     flex-wrap:nowrap;
