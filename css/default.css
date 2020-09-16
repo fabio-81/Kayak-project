@@ -28,6 +28,12 @@
     border: 1px solid black;
     
 }
+.navigation-menu-links-container, a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
+}
 
 .navigation-searchbox{
     background-image: url(../img/globe.jpeg);
