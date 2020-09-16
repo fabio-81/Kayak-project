@@ -25,6 +25,7 @@
     background-color: var(--col-bg-navigation-container);
     flex-direction: column;
     padding: 0.5em;
+    border: 1px solid black;
     
 }
 
