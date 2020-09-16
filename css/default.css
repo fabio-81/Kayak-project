@@ -86,10 +86,13 @@
     border-radius: 0 1em 0 0;
 }
 
-.search-results,.search-item-title{
+/* .search-results,.search-item-title{
 
     font-family: var(--font-a);
     text-decoration: underline;
+} */
+.featured-destinations-heading{
+    text-align: center;
 }
 
 .footer-nav-item{
