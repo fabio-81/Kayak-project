@@ -124,7 +124,7 @@
     
     .grid-container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
     }
 
 /*mobile responive*/
@@ -140,6 +140,13 @@
     }
     .search-box-heading{
         font-size: 1.5em;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin: 0 auto;
+        grid-gap: 10px;
     }
 }
 
