@@ -141,10 +141,17 @@
         display: grid;
         /* grid-template-columns: 1fr 1fr; */
     }
+    .form-container{
+        display: grid;
+        justify-content: center;
+    }
 
 /*mobile responive*/
 @media screen and (min-width: 768px) {
-    
+    .form-container{
+        display: initial;
+        
+    }
     .nav-items{
         display: grid;
         justify-content: initial;
