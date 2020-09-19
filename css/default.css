@@ -41,12 +41,13 @@
 
 }
 
-.navigation-searchbox{
-    background-image: url(../img/globe.jpeg);
+.searchbox-container{
+    /* background-image: url(../img/globe.jpeg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     text-align: center;
-    min-height: 28em;
+    /* min-height: 28em; */
+    
 }
 
 .search-results-container{
@@ -145,12 +146,18 @@
         display: grid;
         justify-content: center;
     }
+    .form-container input{
+        padding: 0.7em;
+    }
 
 /*mobile responive*/
 @media screen and (min-width: 768px) {
     .form-container{
         display: initial;
         
+    }
+    .searchbox-container{
+        margin: 5em;
     }
     .nav-items{
         display: grid;
