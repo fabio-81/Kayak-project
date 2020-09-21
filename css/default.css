@@ -71,9 +71,12 @@ body{
 
 .footer-menu-links-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     background-color: var(--col-bg-footer);
     margin-bottom: 0;
+    align-items: center;
+    
 }
 
 .search-box-heading{
@@ -158,6 +161,7 @@ body{
     .form-container input{
         padding: 0.7em;
     }
+    
 
 /*mobile responive*/
 @media screen and (min-width: 768px) {
@@ -196,6 +200,12 @@ body{
         margin: 0 auto;
         grid-gap: 10px;
         justify-content: center;
+    }
+    .footer-menu-links-container{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        
     }
 }
 
