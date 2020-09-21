@@ -10,7 +10,7 @@
     --col-on-search-item-link:white;
     --col-bg-link-background-a: #DF00A9;
     /* [heading font] */
-    --font-a:Georgia, 'Times New Roman', Times, serif;
+    --font-a:Roboto, 'Times New Roman', Times, serif;
     /* [paragraph font] */
     --font-b:Arial, Helvetica, sans-serif;
  }
@@ -74,6 +74,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: var(--col-bg-footer);
+    font-family: var(--font-a);
     margin-bottom: 0;
     align-items: center;
     
@@ -145,7 +146,7 @@ body{
 }
 
 .nav-item, .login-item, .signup-item{
-    font-size: 1em;
+    /* font-size: 1em; */
     margin: 0.5em;
     }
     
@@ -205,6 +206,7 @@ body{
         display: flex;
         flex-direction:row;
         align-items: center;
+        font-weight: bold;
         
     }
 }
@@ -212,10 +214,6 @@ body{
     /*tablet responsive*/
     @media screen and (min-width:1024px){
 
-        .nav-item, .login-item, .signup-item{
-
-            font-size: 1.25em;
-        }
         .grid-container{
             display: grid;
             grid-template-columns: 25em 25em 25em;
