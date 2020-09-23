@@ -107,7 +107,15 @@ body{
     max-width: 7em;
     padding: 0.5em;
     font-weight: bold;
+    transition: background-color 1s;
   
+}
+.search-item-link:hover{
+    
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    
 }
 
 /* .search-results,.search-item-title{
