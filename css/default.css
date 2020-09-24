@@ -217,6 +217,9 @@ body{
         font-weight: bold;
         
     }
+    .logo{
+        width: 6em;
+    }
 }
 
     /*tablet responsive*/
@@ -233,6 +236,12 @@ body{
         height: 25em;
 
         }
+        /* .search-results-image:hover{
+            /* height: initial; */
+            /* transform: scale(1.5);  */
+        /* } */
+
+        
         .search-box-heading{
 
             font-size: 2em;
